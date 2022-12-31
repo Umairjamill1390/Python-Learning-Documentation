@@ -4,15 +4,17 @@
 #                  SECTION 1 : Python Basics
 #######################################################################
 
-# Data types
-# There are 4 main data types in python
 
+#======================================================================
+#===================DATA TYPES AND METHODS=============================
+
+# There are 4 main data types in python
 number = 123          # int
 decimal = 123.456     # float
 name = "Andrew"       # str
 decision = True       # bool
 
-
+#______________________________________________________________________
 # Variables of the same data type can be added/merged (except for bool)
 
 # Example 1 (int)
@@ -40,31 +42,27 @@ movie_name = "The Amazing Spider-Man (2012)"
 print("Movie: " + movie_name + "\nRanking at #" + str(movie_rank) + "\nStarring " + actor_name )
 
 # Exaplme 5 (using str() method in variable declaration)
-
 name = "Andrew Garfield"
 num = 3
 sentence = name + " has made a total of " + str(num) + " movies."
 print(sentence)      # prints -> Andrew Garfield has made a total of 3 movies
- 
-  
-  
-  
-  
-  
-# _______________________Slicing______________________
-sentence = "This is a sentence"
-print(sentence)
-print("Slice = " + str(sentence[-10:]))
 
+# Exmaple 6 (Using type() method)
 print("Testing data type")
 number = 123          # int
 decimal = 123.456     # float
 name = "Andrew"       # str
 decision = True       # bool
+data_type = type(decimal)
+print(data_type).     # prints -> float
 
-# type() is used to figure out the data's type
-data_type = type(decision)
-print(data_type)
+#======================================================================
+#============================== Slicing ===============================
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + str(sentence[-10:]))
+
+
 
 # _______________________Basic Methods______________________
 
