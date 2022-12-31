@@ -35,9 +35,10 @@ By leaving out the end index, the range will go to the end:
 string = "Hello World"
 print(string[1:])        # prints -> ello World
 ```
-Adding one more index after the end index with a colon will provide the answer and move the number of steps ahead. 
+Extract a sub-string is common with the slicing syntax of string[start:stop:step]. This syntax allows you to extract a sub-string from string by specifying the starting index (start), ending index (stop), and the number of characters to skip between indices (step -1).
 
 ```
 string = "1234567890"
-print(string[0:10:3])
+print(string[0:10:3])    # prints ->1470
 ```
+
