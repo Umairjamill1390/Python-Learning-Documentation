@@ -19,5 +19,4 @@ any_number = 123          # int
 any_decimal = 123.456     # float
 any_name = "Andrew"       # str
 any_decision = True       # bool
-
 ```
