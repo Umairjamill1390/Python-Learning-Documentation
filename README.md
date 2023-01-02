@@ -67,3 +67,18 @@ print(sentence)                    # prints -> False
 * string.isalpha("abc")
 * string.isalnum("abc")
 
+## Format 1.7
+
+The ` .format() ` method formats the specified value(s) and insert them inside the string's placeholder. The placeholder is defined using curly brackets: ` {} `. 
+
+Here is a good representation of ` .format() ` method.
+
+```
+item_1 = 50
+item_2 = 40
+tax = 10
+total = item_1 + item_2 + tax
+print(total)
+print("Explanation: {0} + {1} + {2} = {3}".format(item_1, item_2, tax, total))
+```
+
