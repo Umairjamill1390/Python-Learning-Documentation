@@ -81,4 +81,4 @@ total = item_1 + item_2 + tax
 print(total)
 print("Explanation: {0} + {1} + {2} = {3}".format(item_1, item_2, tax, total))
 ```
-
+### Some good practice problems are in [Section-1-Practice-Problems](https://github.com/imtiazahmad007/PythonCourse)
