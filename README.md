@@ -20,7 +20,7 @@ any_decimal = 123.456     # float
 any_name = "Andrew"       # str
 any_decision = True       # bool
 ```
-## Slicing 
+## Slicing 1.5
 
 You can return a range of characters by using the slice syntax.
 Specify the start index and the end index, separated by a colon, to return a part of the string.
@@ -41,4 +41,20 @@ Extract a sub-string is common with the slicing syntax of string[start:stop:step
 string = "1234567890"
 print(string[0:10:3])    # prints ->1470
 ```
+## Basic String Methods 1.6
 
+When thinking about methods in general think of them as [attributes / functions] that are associated with the type of data. A method is a function that “belongs to” an object. String methods are mainly used to validate or convert the string partially or entirely. String method representation is a dot/period after the object name Ex: **type_Object.method_name**
+
+Here are some common methods associated with strings. 
+```
+sentence = "This is a SENTENCE"
+print(sentence)                    # prints -> This is a SENTENCE
+sentence = sentence.upper()
+print(sentence)                    # prints -> THIS IS A SENTENCE
+sentence = sentence.lower()
+print(sentence)                    # prints -> this is a sentence
+sentence = sentence.capitalize()
+print(sentence)                    # prints -> This is a sentence
+sentence = sentence.isdigit()
+print(sentence)                    # prints -> False
+```
