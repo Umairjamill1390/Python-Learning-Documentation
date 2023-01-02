@@ -109,10 +109,15 @@ print("Slice = " +
 #______________________________________________________________________
 # Below are some basic string methods
 
-print()               # Prints out data on console
-str()                 # Converts integer data to string data type
-type()                # Used to figure out the data's type
-string[_:_:_]         # Slice is used to Extract data from a string
+
+# NAME           REPRESENTATION             EXPLANATION
+#---------------------------------------------------------------------------------------------------------------------------
+# Print          print()                    # Prints out data on console
+# String         str()                      # Converts integer data to string data type
+# Type           type()                     # Used to figure out the data's type
+# Slice          string[_:_:_]              # Slice is used to Extract data from a string
+# Format         "num = {0}".format(10)     # Formats the specified value(s) and insert them inside the string's placeholder
+
 
 #______________________________________________________________________
 # Please practice the following problems for testing string methods
@@ -172,20 +177,6 @@ print(sentance.isalnum())
 # Problem 13
 sentance = "12345*67890"
 print(sentance.isalnum())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
