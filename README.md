@@ -58,9 +58,9 @@ print(sentence)                    # prints -> This is a sentence
 sentence = sentence.isdigit()
 print(sentence)                    # prints -> False
 ```
-Some examples are in the [Python-Learning-Documentation](https://github.com/Umairjamill1390/Python-Learning-Documentation/blob/main/python-code-practice-problems.py) file. 
+### Some practice examples are in the [python-code-practice-problems.py](https://github.com/Umairjamill1390/Python-Learning-Documentation/blob/main/python-code-practice-problems.py) file. 
 
-> Please take a look and try to undersatand the other unique types of string methods.
+> ### Please take a look and try to undersatand the other unique types of string methods.
 * string.startswith("abc")
 * string.endswith("zyx")
 * string.isdigit("abc")
