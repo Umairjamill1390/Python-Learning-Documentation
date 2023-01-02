@@ -131,31 +131,45 @@ print(sentance.endswith("abcd"))
 sentance = "abcdefghijklmnopqrstuvwxyz"
 print(sentance.endswith("vwxyz"))
 
-# Problem 4
+# Problem 4 
+sentance = "abcdefghijklmnopqrstuvwxyz"
+print(sentance.startswith("efgh",4))
+
+# Problem 55
+sentance = "This is a sentence"
+print(sentance.endswith("sentence",-8))
+
+# Problem 6
+sentance = "This is a sentence"
+print(sentance.endswith("ence",-7))
+
+# _____________ # _____________ # _____________ #
+
+# Problem 7
 sentance = "12345+67890"
 print(sentance.isdigit())
 
-# Problem 5
-sentance = "1234567890"
-print(sentance.isdigit())
-
-# Problem 6
-sentance = "12345 67890"
-print(sentance.isdigit())
-
-# Problem 7
-sentance = "12345xx67890"
-print(sentance.isalnum())
-
 # Problem 8
 sentance = "1234567890"
-print(sentance.isalnum())
+print(sentance.isdigit())
 
 # Problem 9
 sentance = "12345 67890"
-print(sentance.isalnum())
+print(sentance.isdigit())
 
 # Problem 10
+sentance = "12345xx67890"
+print(sentance.isalnum())
+
+# Problem 11
+sentance = "1234567890"
+print(sentance.isalnum())
+
+# Problem 12
+sentance = "12345 67890"
+print(sentance.isalnum())
+
+# Problem 13
 sentance = "12345*67890"
 print(sentance.isalnum())
 
