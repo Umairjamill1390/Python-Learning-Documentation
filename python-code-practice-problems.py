@@ -103,14 +103,79 @@ print(sentence)
 print("Slice = " + 
       str(sentence[-8: :2]))
 
+#======================================================================
+#===================== String Practice Problems =======================
 
-
-
-
-
-# _______________________Basic Methods______________________
+#______________________________________________________________________
+# Below are some basic string methods
 
 print()               # Prints out data on console
 str()                 # Converts integer data to string data type
 type()                # Used to figure out the data's type
 string[_:_:_]         # Slice is used to Extract data from a string
+
+#______________________________________________________________________
+# Please practice the following problems for testing string methods
+#
+# What will be the outcome for the folloing problems?
+
+# Problem 1
+sentance = "abcdefghijklmnopqrstuvwxyz"
+print(sentance.startswith("abcd"))
+
+# Problem 2
+sentance = "abcdefghijklmnopqrstuvwxyz"
+print(sentance.endswith("abcd"))
+
+# Problem 3 
+sentance = "abcdefghijklmnopqrstuvwxyz"
+print(sentance.endswith("vwxyz"))
+
+# Problem 4
+sentance = "12345+67890"
+print(sentance.isdigit())
+
+# Problem 5
+sentance = "1234567890"
+print(sentance.isdigit())
+
+# Problem 6
+sentance = "12345 67890"
+print(sentance.isdigit())
+
+# Problem 7
+sentance = "12345xx67890"
+print(sentance.isalnum())
+
+# Problem 8
+sentance = "1234567890"
+print(sentance.isalnum())
+
+# Problem 9
+sentance = "12345 67890"
+print(sentance.isalnum())
+
+# Problem 10
+sentance = "12345*67890"
+print(sentance.isalnum())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
