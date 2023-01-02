@@ -58,9 +58,53 @@ print(data_type).     # prints -> float
 
 #======================================================================
 #============================== Slicing ===============================
+
+#______________________________________________________________________
+# Used to extract parts of a sequence as a whole or in a pattern
+# Try these examples yourself
+
+# Example 1 (int)
 sentence = "This is a sentence"
 print(sentence)
-print("Slice = " + str(sentence[-10:]))
+print("Slice = " + 
+      str(sentence[0:4])) 
+
+# Example 2
+sentence = "This is a sentence"
+print("Slice = " + 
+      str(sentence[0: ])) 
+
+# Example 3
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + 
+      str(sentence[ :7]))  
+
+# Example 4
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + 
+      str(sentence[ :-5])) 
+# Example 5
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + 
+      str(sentence[-8: ])) 
+
+# Example 6
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + 
+      str(sentence[0:18:1])) 
+
+# Example 7
+sentence = "This is a sentence"
+print(sentence)
+print("Slice = " + 
+      str(sentence[-8: :2]))
+
+
+
 
 
 
@@ -69,3 +113,4 @@ print("Slice = " + str(sentence[-10:]))
 print()               # Prints out data on console
 str()                 # Converts integer data to string data type
 type()                # Used to figure out the data's type
+string[_:_:_]         # Slice is used to Extract data from a string
