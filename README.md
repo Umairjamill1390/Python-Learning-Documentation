@@ -27,7 +27,7 @@ Specify the start index and the end index, separated by a colon, to return a par
 
 ```
 string = "Hello World"
-print(string[1:5])        # prints -> ello Wo
+print(string[1:5])        # prints -> ello
 ```
 By leaving out the end index, the range will go to the end:
 
