@@ -14,7 +14,7 @@ Comments are text notes added to the program to provide explanatory information 
 
 Here is a small pyhton code representation for data types
 
-```
+```python
 any_number = 123          # int
 any_decimal = 123.456     # float
 any_name = "Andrew"       # str
@@ -25,19 +25,19 @@ any_decision = True       # bool
 You can return a range of characters by using the slice syntax.
 Specify the start index and the end index, separated by a colon, to return a part of the string.
 
-```
+```python
 string = "Hello World"
 print(string[1:5])        # prints -> ello
 ```
 By leaving out the end index, the range will go to the end:
 
-```
+```python
 string = "Hello World"
 print(string[1:])        # prints -> ello World
 ```
 Extract a sub-string is common with the slicing syntax of string[start:stop:step]. This syntax allows you to extract a sub-string from string by specifying the starting index (start), ending index (stop), and the number of characters to skip between indices (step -1).
 
-```
+```python
 string = "1234567890"
 print(string[0:10:3])    # prints ->1470
 ```
@@ -46,7 +46,7 @@ print(string[0:10:3])    # prints ->1470
 When thinking about methods in general think of them as [attributes / functions] that are associated with the type of data. A method is a function that “belongs to” an object. String methods are mainly used to validate or convert the string partially or entirely. String method representation is a dot/period after the object name Ex: **type_Object.method_name**
 
 Here are some common methods associated with strings. 
-```
+```python
 sentence = "This is a SENTENCE"
 print(sentence)                    # prints -> This is a SENTENCE
 sentence = sentence.upper()
@@ -73,7 +73,7 @@ The ` .format() ` method formats the specified value(s) and insert them inside t
 
 Here is a good representation of ` .format() ` method.
 
-```
+```python
 item_1 = 50
 item_2 = 40
 tax = 10
